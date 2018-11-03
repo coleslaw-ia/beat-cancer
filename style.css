@@ -3,19 +3,16 @@
 }
 body {
   /* background-color: #f4f4f4; */
-  background: linear-gradient(90deg, #A8B7AB, #9BBEC7);
-  color: #251605;
+  background: linear-gradient(90deg, #F4F4F9, #DFE0E2);
+  color: #071013;
   font-family: 'Lato', sans-serif;
 }
 h1 {
   font-size: 72px;
   font-family: 'Shadows Into Light', cursive;
-  text-align: center;
-  margin: 0;
-  padding: 0;
 }
 .main-nav {
-  background-color: #251605;
+  background-color: #7EA2AA;
   list-style: none;
 }
 .main-nav li {
@@ -24,33 +21,53 @@ font-size: 24px;
 margin: 0 20px 0 40px;
 }
 .main-nav a {
-  color: white;
+  color: #F4F4F9;
   text-decoration: none;
   /* background-color: lime; */
   padding: 10px;
   display: block;
 }
 .main-nav a:hover{
-  background-color: white;
-  color: black;
-}
-main > aside, main > section {
-  display: inline-block;
-  padding: 10px;
+  background-color: #8BE8CB;
+  color: #071013;
 }
 main > aside {
   width: 20%;
 }
+main > aside, main > section {
+  float: left;
+  padding: 20px;
+}
 main > section {
-  width: 59%;
+  width: 60%;
+  background-color: white;
 }
 h2, h3 {
   font-family: 'Shadows Into Light', cursive;
-  text-align: center;
 }
 h3 {
   font-size: 36px;
 }
 h2 {
   font-size: 54px;
+}
+.lead-article {
+  float: right;
+  width: 500px;
+  max-width: 100%;
+  margin-left: 20px;
+}
+article a, article visited {
+  color: black;
+}
+article a:hover {
+  color: orange;
+}
+.products {
+  width: 49%;
+  float: left;
+  margin-right: 8px;
+}
+.products img {
+  width: 100%;
 }
