@@ -1,0 +1,10 @@
+body {
+  /* background-color: #f4f4f4; */
+  background: linear-gradient(90deg, #A8B7AB, #9BBEC7);
+  color: #251605;
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  font-size: 60px;
+  font-family: 'Shadows Into Light', cursive;
+}
