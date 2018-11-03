@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   /* background-color: #f4f4f4; */
   background: linear-gradient(90deg, #A8B7AB, #9BBEC7);
@@ -10,7 +13,6 @@ h1 {
   text-align: center;
   margin: 0;
   padding: 0;
-  line-height: 100px;
 }
 .main-nav {
   background-color: #251605;
@@ -31,4 +33,24 @@ margin: 0 20px 0 40px;
 .main-nav a:hover{
   background-color: white;
   color: black;
+}
+main > aside, main > section {
+  display: inline-block;
+  padding: 10px;
+}
+main > aside {
+  width: 20%;
+}
+main > section {
+  width: 59%;
+}
+h2, h3 {
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+}
+h3 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 54px;
 }
