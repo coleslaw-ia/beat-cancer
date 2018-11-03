@@ -2,9 +2,33 @@ body {
   /* background-color: #f4f4f4; */
   background: linear-gradient(90deg, #A8B7AB, #9BBEC7);
   color: #251605;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 h1 {
-  font-size: 60px;
+  font-size: 72px;
   font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  line-height: 100px;
+}
+.main-nav {
+  background-color: #251605;
+  list-style: none;
+}
+.main-nav li {
+display: inline-block;
+font-size: 24px;
+margin: 0 20px 0 40px;
+}
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  /* background-color: lime; */
+  padding: 10px;
+  display: block;
+}
+.main-nav a:hover{
+  background-color: white;
+  color: black;
 }
